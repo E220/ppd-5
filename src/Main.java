@@ -1,3 +1,7 @@
+import model.Polynomial;
+import operations.multiply.Karatsuba;
+import operations.multiply.Multiply;
+
 public class Main {
     public static void main(String[] args) {
         final Polynomial p1 = new Polynomial(5, i -> i);

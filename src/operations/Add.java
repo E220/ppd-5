@@ -1,3 +1,7 @@
+package operations;
+
+import model.Polynomial;
+
 public class Add {
     public static Polynomial add(Polynomial p1, Polynomial p2) {
         return new Polynomial(

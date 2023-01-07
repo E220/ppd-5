@@ -1,3 +1,7 @@
+package operations;
+
+import model.Polynomial;
+
 public class Subtract {
     public static Polynomial subtract(Polynomial p1, Polynomial p2) {
         return new Polynomial(

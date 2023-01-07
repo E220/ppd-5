@@ -1,3 +1,7 @@
+package operations.multiply;
+
+import model.Polynomial;
+
 public class Multiply {
     public static Polynomial multiply(Polynomial p1, Polynomial p2) {
         return new Polynomial(

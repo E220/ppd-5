@@ -1,3 +1,7 @@
+package operations;
+
+import model.Polynomial;
+
 public class ShiftUp {
     public static Polynomial shift(Polynomial p, int increase) {
         return new Polynomial(

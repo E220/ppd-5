@@ -1,3 +1,11 @@
+package operations.multiply;
+
+import model.Polynomial;
+import operations.Add;
+import operations.ShiftUp;
+import operations.Slice;
+import operations.Subtract;
+
 public class Karatsuba {
     public static Polynomial multiply(Polynomial p1, Polynomial p2) {
         final int rank = Math.max(p1.rank(), p2.rank());
