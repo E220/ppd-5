@@ -17,6 +17,9 @@ public class Polynomial {
     }
 
     public int get(int rank) {
+        if (rank > this.rank()) {
+            return 0;
+        }
         return params.get(params.size() - rank - 1);
     }
 
