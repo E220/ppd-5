@@ -5,8 +5,6 @@ public class Main {
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(Multiply.multiply(p1, p2));
-        System.out.println(Add.add(p1, p2));
-        System.out.println(ShiftUp.shift(p1, 3));
-        System.out.println(ShiftDown.shift(p1, 3));
+        System.out.println(Karatsuba.multiply(p1, p2));
     }
 }
