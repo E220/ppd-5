@@ -7,7 +7,7 @@ public class Timer {
         this.tick = System.nanoTime();
     }
     public double measure() {
-        return (System.nanoTime() - this.tick) / 1000.0;
+        return (System.nanoTime() - this.tick) / 1000000.0;
     }
 
     public void print(double diff) {

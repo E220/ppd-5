@@ -10,7 +10,7 @@ public class Karatsuba {
     public static Polynomial multiply(Polynomial p1, Polynomial p2) {
         final int rank = Math.max(p1.rank(), p2.rank());
 
-        if (rank == 0) {
+        if (rank <= 100) {
             return Multiply.multiply(p1, p2);
         }
 
